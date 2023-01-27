@@ -1,17 +1,16 @@
-package com.spring.microservices.app;
+package com.spring.microServices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("com.spring.microservices")
-@SpringBootApplication
 @EnableEurekaClient
-public class SpringBootMicroservicesPracticeMovieInfoApplication {
+@SpringBootApplication
+public class SpringBootMicroservicesPracticeRatingsDataApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMicroservicesPracticeMovieInfoApplication.class, args);
+		SpringApplication.run(SpringBootMicroservicesPracticeRatingsDataApplication.class, args);
 	}
 
 }
