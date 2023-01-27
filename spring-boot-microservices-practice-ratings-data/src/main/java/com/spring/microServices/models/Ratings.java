@@ -11,6 +11,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Ratings {
 
-  private String movieId;
-  private int rating;
+    private String movieId;
+
+    private int rating;
 }

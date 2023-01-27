@@ -9,8 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 public class SpringBootMicroservicesPracticeRatingsDataApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(SpringBootMicroservicesPracticeRatingsDataApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootMicroservicesPracticeRatingsDataApplication.class, args);
+    }
 }
