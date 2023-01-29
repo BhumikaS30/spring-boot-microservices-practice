@@ -22,6 +22,7 @@ This is a practice project created to learn the basics of spring boot framework 
 - http://localhost:8761/
 - http://localhost:8081/catalog/
 - http://localhost:8081/catalog/foo
+- https://www.themoviedb.org/settings/api
  
 ### Owner
 - [Bhumika Sharma](https://www.linkedin.com/in/bhumika-sharma-4b07465a/)

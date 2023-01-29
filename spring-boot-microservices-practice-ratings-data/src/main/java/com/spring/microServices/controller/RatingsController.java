@@ -21,12 +21,8 @@ public class RatingsController {
 
     @RequestMapping("users/{userId}")
     public UserRating getRatings(@PathVariable("userId") String userId) {
-        List<Ratings> ratings = Arrays.asList(
-            new Ratings("1234", 3),
-            new Ratings("5678", 4)
-        );
         UserRating userRating = new UserRating();
-        userRating.setRatings(ratings);
+        userRating.initData(userId);
         return userRating;
     }
 }

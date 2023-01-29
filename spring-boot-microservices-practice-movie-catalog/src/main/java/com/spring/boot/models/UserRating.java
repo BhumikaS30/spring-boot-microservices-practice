@@ -13,5 +13,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class UserRating {
 
+    private String userId;
+
     private List<Ratings> ratings;
 }
