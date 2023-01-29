@@ -25,9 +25,8 @@ resilience4j:
         slidingWindowSize: 10
         slidingWindowType: COUNT_BASED
 
-
-  retry:
+  bulkhead:
     instances:
       movies-catalog-service:
-        maxRetryAttempts: 5
-        waitDuration: 10s
+#        maxwaitDuration: 1000
+        maxConcurrentCalls: 5
